@@ -38,6 +38,15 @@
 	<link rel="stylesheet" href="{{ asset('kmutnb/css/jquery.sidr.dark.css') }}">
      <!-- icon -->
     <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+
+    <style>
+    	.main-shadow{
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15), 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+        }
+        .main-radius{
+            border-radius: 8px;
+        }
+    </style>
 	
 </head>
 

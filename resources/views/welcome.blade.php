@@ -119,7 +119,7 @@
 										<div class="row margin-bottom">
                                             <!-- EDU COURSES WRAP START -->			
                                             <div class="col-md-4">
-                                                <div class="edu2_cur_wrap">
+                                                <div class="edu2_cur_wrap main-shadow main-radius" style="padding: 10px;">
                                                     <figure>
                                                         <img src="{{ asset('/kmutnb/images/content/1.jpg') }}" alt="">
                                                         <figcaption><a href="courses-detail.html">See More</a></figcaption>
