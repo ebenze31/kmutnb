@@ -37,6 +37,7 @@
 	<link rel="stylesheet" href="{{ asset('kmutnb/css/jquery.sidr.dark.css') }}">
      <!-- icon -->
     <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+	
 </head>
 
 <body>
@@ -200,7 +201,7 @@
 			</div>
 			<!--KF_SIDEBAR_ARCHIVE_WRAP END-->
 
-			<p class="copy-right-sidr">Design and Developed by KodeForest @ All Rights Reserved by KodeForest</p>
+			<p class="copy-right-sidr">Design and Developed by Viicheck @ All Rights Reserved by Viicheck</p>
 		</div>
 	</div>
     	<!--HEADER START-->
@@ -228,14 +229,14 @@
 								</div>
 	    					</div>
     						<ul class="login_wrap">
-    							<li><a href="#" data-toggle="modal" data-target="#reg-box"><i class="fa fa-user"></i>Register</a></li>
-    							<li><a href="#" data-toggle="modal" data-target="#signin-box"><i class="fa fa-sign-in"></i>Sign In</a></li>
+    							<!-- <li><a href="#" data-toggle="modal" data-target="#reg-box"><i class="fa fa-user"></i>Register</a></li> -->
+    							<li><a href="#" data-toggle="modal" data-target="#signin-box"><i class="fa fa-sign-in"></i>เข้าสู่ระบบ</a></li>
     						</ul>	    					
 	    					<ul class="top_nav">
-	    						<li><a href="blog-detail.html">News</a></li>
-	    						<li><a href="event-detail.html">Event</a></li>
-	    						<li><a href="our-courses.html">Giving</a></li>
-	    						<li><a href="contactus.html">contact us</a></li>
+	    						<li><a href="blog-detail.html">เกี่ยวกับ</a></li>
+	    						<li><a href="event-detail.html">ผลงาน</a></li>
+	    						<li><a href="our-courses.html">บริการ</a></li>
+	    						<li><a href="contactus.html">ติดต่อ</a></li>
 	    					</ul>
 	    				</div>
 	    			</div>
@@ -255,13 +256,23 @@
     							<a href="#"><img src="{{ asset('/kmutnb/images/logo/logo.gif') }}" alt="" width="100%"></a>
     						</div>
     					</div>
-    					<div class="col-md-10">
+    					<div class="col-md-10 d-flex justify-content-end">
     						<!--kode nav_2 start-->
     						<div class="nav_2" id="navigation">
     							<ul>
-    								<li><a href="index.html">home</a></li>
-									<li><a href="aboutus.html">About Us</a></li>
-		                            <li><a href="#">Event</a>
+									<li style="float: right;"><a id="simple-menu" href="#sidr"><i class="fa fa-bars"></i></a></li>
+									
+									<li style="float: right;"><a href="aboutus.html">CONTACT</a></li>
+									<li style="float: right;"><a href="aboutus.html">BLOG</a></li>
+									<li style="float: right;"><a href="aboutus.html">SERVICES</a></li>
+									<li style="float: right;"><a href="aboutus.html">STAFF</a></li>
+    								<li style="float: right;"><a href="{{ asset('') }}">HOME</a></li>
+									
+									
+									
+									
+
+		                            <!-- <li><a href="#">Event</a>
 		                            	<ul>
 		                                    <li><a href="our-event.html">our Event</a></li>
 		                                    <li><a href="event-list.html">Event List</a></li>
@@ -309,8 +320,7 @@
 		                                    <li><a href="contactus.html">Contact Us 1</a></li>
 		                                    <li><a href="contactus-2.html">Contact Us 2</a></li>
 		                                </ul>
-		                            </li>
-		                            <li><a id="simple-menu" href="#sidr"><i class="fa fa-bars"></i></a></li>
+		                            </li> -->
     							</ul>
     						</div>
     						<!--kode nav_2 end-->
@@ -336,13 +346,12 @@
 						<!--EDU2 FOOTER CONTANT DES START-->
 						<div class="col-md-3">
 							<div class="widget widget-links">
-								<h5>Information</h5>
+								<h5>ประกาศ</h5>
 								<ul>
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Our Stories</a></li>
-									<li><a href="#">My Account</a></li>
-									<li><a href="#">Our History</a></li>
-									<li><a href="#">Sprcialist Info</a></li>
+									<li><a href="https://www.studentaffairs.kmutnb.ac.th/DWL-form/Letter/2564/2.%20PR/1.%20change%20hospital%202022.pdf">การเปลี่ยนสถานพยาบาลในโครงการประกันสังคม ประจำปี 2565</a></li>
+									<li><a href="https://www.studentaffairs.kmutnb.ac.th/DWL-form/Letter/2564/2.%20PR/2.%20Board%20of%20STD..pdf">คำสั่งแต่งตั้งคณะกรรมการบริหารกองกิจการนักศึกษา</a></li>
+									<li><a href="https://www.studentaffairs.kmutnb.ac.th/DWL-form/Letter/2564/2.%20PR/3.%20scholarship.pdf">รับสมัครสอบแข่งขันเพื่อรับทุนรัฐบาลฯ ระหว่างวันที่ 1 - 28 ธันวาคม 2564</a></li>
+									<li><a href="https://www.studentaffairs.kmutnb.ac.th/DWL-form/Letter/2564/1.%20circular%20letter/1.%20cost%20of%20treatment%20Covid19.pdf">แนวทางการเบิกค่าตรวจหาเชื้อไวรัสโคโรน่า 2019 (Covid-19)</a></li>
 								</ul>
 							</div>
 						</div>
@@ -351,36 +360,40 @@
 						<!--EDU2 FOOTER CONTANT DES START-->
 						<div class="col-md-3">
 							<div class="widget widget-links">
-								<h5>Student Help</h5>
+								<h5>แบบประเมิน</h5>
 								<ul>
-									<li><a href="#">My Info</a></li>
-									<li><a href="#">My Questions</a></li>
-									<li><a href="#">F.A.Q</a></li>
-									<li><a href="#">Serch Courses</a></li>
-									<li><a href="#">Latest Informations</a></li>
+									<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfIAvi2ROQElKCKn-0PNf0UoE-71VtAGRCsV7WjRhx31pQsXw/closedform">แบบสอบถามความพึงพอใจการให้บริการกองกิจการนักศึกษา อาคาร 40 ปี มจพ.</a></li>
+									<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe48RyQ4fNLliute2gwrtwXel00DwLCNEf2j8kgCRzVN5TOlg/viewform">แบบสอบถามความพึงพอใจการให้บริการศูนย์อาหาร ชั้น 2 อาคาร 40 ปี มจพ.</a></li>
+									<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfKP2AEP5WggK74lGLP2pcmqtj6Cwybffj3Hd7y31lr7-Bk-w/viewform">แบบสอบถามความพึงพอใจการให้บริการสนามกีฬา อาคาร 40 ปี มจพ.</a></li>
+									<li><a href="https://docs.google.com/forms/d/e/1FAIpQLScWU3hFHOEtNQD5_30LCG7UpVfHlFHq5XprHJrCPCFCABNAiQ/viewform">แบบสอบถามความพึงพอใจ การให้บริการสนามกีฬา อาคารปฏิบัติการวิทยาศาสตร์การกีฬา</a></li>
 								</ul>
 							</div>
 						</div>
 						<!--EDU2 FOOTER CONTANT DES END-->
 
 						<!--EDU2 FOOTER CONTANT DES START-->
-						<div class="col-md-3">
+						<div class="col-md-6">
 							<div class="widget wiget-instagram">
-								<h5>Instagram</h5>
+								<h5>Link</h5>
 								<ul>
-									<li><a href="#"><img src="{{ asset('/kmutnb/extra-images/instagram-1.jpg') }}" alt=""/></a></li>
-									<li><a href="#"><img src="{{ asset('/kmutnb/extra-images/instagram-2.jpg') }}" alt=""/></a></li>
-									<li><a href="#"><img src="{{ asset('/kmutnb/extra-images/instagram-3.jpg') }}" alt=""/></a></li>
-									<li><a href="#"><img src="{{ asset('/kmutnb/extra-images/instagram-4.jpg') }}" alt=""/></a></li>
-									<li><a href="#"><img src="{{ asset('/kmutnb/extra-images/instagram-5.jpg') }}" alt=""/></a></li>
-									<li><a href="#"><img src="{{ asset('/kmutnb/extra-images/instagram-6.jpg') }}" alt=""/></a></li>
+									<li class="col-3"><a href="https://www.facebook.com/KMUTNBstudentaffairs"><img src="{{ asset('/kmutnb/images/link/1.jpg') }}"   height="72" alt=""/></a></li>
+									<li><a href="https://www.studentaffairs.kmutnb.ac.th/DWL-form/SAR/%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%93%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3.pdf"><img src="{{ asset('/kmutnb/images/link/2.jpg') }}"   height="72" alt=""/></a></li>
+									<li><a href="https://www.studentaffairs.kmutnb.ac.th/Counseling/index.html"><img src="{{ asset('/kmutnb/images/link/3.jpg') }}"   height="72" alt=""/></a></li>
+									<li><a href="#"><img src="{{ asset('/kmutnb/images/link/4.jpg') }}"   height="72" alt=""/></a></li>
+									<li><a href="https://www.studentaffairs.kmutnb.ac.th/14/index.html"><img src="{{ asset('/kmutnb/images/link/5.jpg') }}"   height="72" alt=""/></a></li>
+									<li><a href="https://sportreserve.kmutnb.in.th/"><img src="{{ asset('/kmutnb/images/link/6.jpg') }}"   height="72" alt=""/></a></li>
+									<li><a href="http://www.dorm.kmutnb.ac.th/"><img src="{{ asset('/kmutnb/images/link/7.jpg') }}"   height="72" alt=""/></a></li>
+									<li><a href="https://www.studentaffairs.kmutnb.ac.th/sportculture"><img src="{{ asset('/kmutnb/images/link/8.jpg') }}"   height="72" alt=""/></a></li>
+									<li><a href="https://www.studentaffairs.kmutnb.ac.th/jobfair.html"><img src="{{ asset('/kmutnb/images/link/9.jpg') }}"   height="72" alt=""/></a></li>
+									<li><a href="http://e-office.op.kmutnb.ac.th/?page=MainPage.HomePage"><img src="{{ asset('/kmutnb/images/link/10.jpg') }}"  height="72"  alt=""/></a></li>
+									<li><a href="http://www.studentaffairs.kmutnb.ac.th/Alumni2017/pages"><img src="{{ asset('/kmutnb/images/link/11.jpg') }}"  height="72"  alt=""/></a></li>
 								</ul>
 							</div>
 						</div>
 						<!--EDU2 FOOTER CONTANT DES END-->
 
 						<!--EDU2 FOOTER CONTANT DES START-->
-						<div class="col-md-3">
+						<!-- <div class="col-md-3">
 							<div class="widget widget-contact">
 								<h5>Contact</h5>
 								<ul>
@@ -390,7 +403,7 @@
 									<li>Email : <a href="#"> Info@info.com</a></li>
 								</ul>
 							</div>
-						</div>
+						</div> -->
 						<!--EDU2 FOOTER CONTANT DES END-->
 					</div>
 				</div>
@@ -399,26 +412,30 @@
 		<!--COPYRIGHTS START-->
 		<div class="edu2_copyright_wrap">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="edu2_ft_logo_wrap">
-							<a href="#"><img src="{{ asset('/kmutnb/extra-images/ft_logo.png') }}" alt=""/></a>
+				<div class="row ">
+					<div class="col-md-1 ">
+						<div class="d-flex justify-content-center" style="margin-top:7px;">
+							<a class="" href="#"><img src="{{ asset('/kmutnb/images/logo/logo_kmutnb.png') }}" width="40px;" alt=""/></a>
 						</div>
 					</div>
-
+					<div class="col-md-2 " style="margin-top:10px;">
+						<div class="edu2_ft_logo_wrap">
+						<span id="sfc29fg51hqetnket4mhnq72fpfgjzmgntt"></span>
+						</div>
+					</div>
 					<div class="col-md-6">
 						<div class="copyright_des">
-							<span>&copy; All Rights reserved. Powered By <a href="#">KODEFOREST</a></span>
+							<span>&copy; All Rights reserved. Powered By <a href="{{ asset('https://www.viicheck.com') }}"><img style="margin-top:-5px;" src="{{ asset('/kmutnb/images/logo/logo-flex-line.png') }}" width="60px;" alt=""/></a></span>
 						</div>
 					</div>
 
 					<div class="col-md-3">
 						<ul class="cards_wrap">
-							<li><a href="#"><img src="{{ asset('/kmutnb/extra-images/visacard.png') }}" alt=""/></a></li>
-							<li><a href="#"><img src="{{ asset('/kmutnb/extra-images/mastercard.png') }}" alt=""/></a></li>
+							<!-- <li style="float: right;"><a href="#"><img src="{{ asset('/kmutnb/images/logo/logo-flex-line.png') }}" width="60px;" alt=""/></a></li> -->
+							<!-- <li><a href="#"><img src="{{ asset('/kmutnb/extra-images/mastercard.png') }}" alt=""/></a></li>
 							<li><a href="#"><img src="{{ asset('/kmutnb/extra-images/americancard.png') }}" alt=""/></a></li>
 							<li><a href="#"><img src="{{ asset('/kmutnb/extra-images/card.png') }}" alt=""/></a></li>
-							<li><a href="#"><img src="{{ asset('/kmutnb/extra-images/descoverycard.png') }}" alt=""/></a></li>
+							<li><a href="#"><img src="{{ asset('/kmutnb/extra-images/descoverycard.png') }}" alt=""/></a></li> -->
 						</ul>
 					</div>
 				</div>
@@ -428,7 +445,8 @@
     </div>
     <!--KF KODE WRAPPER WRAP END-->
 	<!--Bootstrap core JavaScript-->
-    
+    <script type="text/javascript" src="https://counter2.stat.ovh/private/counter.js?c=29fg51hqetnket4mhnq72fpfgjzmgntt&down=async" async></script>
+<noscript><a href="https://www.freecounterstat.com" title="free counter"><img src="https://counter2.stat.ovh/private/freecounterstat.php?c=29fg51hqetnket4mhnq72fpfgjzmgntt" border="0" title="free counter" alt="free counter"></a></noscript>
 	<script src="{{ asset('kmutnb/js/jquery.js') }}"></script>
 	<script src="{{ asset('kmutnb/js/bootstrap.min.js') }}"></script>
 	<!--Bx-Slider JavaScript-->
@@ -455,6 +473,8 @@
 	<script src="{{ asset('kmutnb/js/jquery.sidr.min.js') }}"></script>
 	<!--Custom JavaScript-->
 	<script src="{{ asset('kmutnb/js/custom.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
     
 </body>
