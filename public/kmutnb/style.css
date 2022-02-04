@@ -632,8 +632,9 @@ section,
 	  ==============================================================
 */
 .edu2_main_bn_wrap{
-	float: left;
-	width: 100%;
+	float: none;
+    margin: 0 auto;
+	width: 80%;
 	position: relative;
 }
 .edu2_main_bn_wrap figure{
