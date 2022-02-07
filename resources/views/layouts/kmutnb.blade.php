@@ -351,7 +351,7 @@
 		<!--FOOTER START-->
 		<footer>
 			<!--EDU2 FOOTER CONTANT WRAP START-->
-				<div class="container">
+				<div style="padding: 0px 50px;">
 					<div class="row">
 						<!--EDU2 FOOTER CONTANT DES START-->
 						<div class="col-md-3">
@@ -386,7 +386,7 @@
 							<div class="widget wiget-instagram">
 								<h5>Link</h5>
 								<div class="row">
-										<div class="col-md-3 col-xs-4">
+										<div class="col-md-2 col-xs-4">
 											<!-- INTERO DES START-->
 											<div class="kf_intro_des2">
 												<div class="kf_intro_des_caption2">
@@ -400,7 +400,7 @@
 											</div>
 											<!-- INTERO DES END-->
 										</div>
-										<div class="col-md-3 col-xs-4">
+										<div class="col-md-2 col-xs-4">
 											<!-- INTERO DES START-->
 											<div class="kf_intro_des2">
 												<div class="kf_intro_des_caption2">
@@ -415,7 +415,7 @@
 											<!-- INTERO DES END-->
 										</div>
 										
-										<div class="col-md-3 col-xs-4">
+										<div class="col-md-2 col-xs-4">
 											<!-- INTERO DES START-->
 											<div class="kf_intro_des2">
 												<div class="kf_intro_des_caption2">
@@ -429,7 +429,7 @@
 										</div>
 										
 
-										<div class="col-md-3 col-xs-4">
+										<div class="col-md-2 col-xs-4">
 											<!-- INTERO DES START-->
 											<div class="kf_intro_des2">
 												<div class="kf_intro_des_caption2">
@@ -441,7 +441,7 @@
 											</div>
 											<!-- INTERO DES END-->
 										</div>
-										<div class="col-md-3 col-xs-4">
+										<div class="col-md-2 col-xs-4">
 											<!-- INTERO DES START-->
 											<div class="kf_intro_des2">
 												<div class="kf_intro_des_caption2">
@@ -456,7 +456,7 @@
 											<!-- INTERO DES END-->
 										</div>
 
-										<div class="col-md-3 col-xs-4">
+										<div class="col-md-2 col-xs-4">
 											<!-- INTERO DES START-->
 											<div class="kf_intro_des2">
 												<div class="kf_intro_des_caption2">
@@ -468,46 +468,45 @@
 											</div>
 											<!-- INTERO DES END-->
 										</div>
-
-										<div class="col-md-3 col-xs-4">
+										<div class="col-md-2 col-xs-4">
 											<!-- INTERO DES START-->
 											<div class="kf_intro_des2">
 												<div class="kf_intro_des_caption2">
 													<a href="#">
 														<span><i class="fal fa-building"></i></span>
-														<p>หอพักนักศึกษา</p>
+														<p>หอพัก</p>
 													</a>
 												</div>
 											</div>
 											<!-- INTERO DES END-->
 										</div>
 
-										<div class="col-md-3 col-xs-4">
+										<div class="col-md-2 col-xs-4">
 											<!-- INTERO DES START-->
 											<div class="kf_intro_des2">
 												<div class="kf_intro_des_caption2">
 													<a href="#">
 														<span><i class="fal fa-phone-alt"></i></span>
-														<p>สายด่วนสุขภาพจิต</p>
+														<p>สุขภาพจิต</p>
 													</a>
 												</div>
 											</div>
 											<!-- INTERO DES END-->
 										</div>
 
-										<div class="col-md-4 col-xs-4">
+										<div class="col-md-2 col-xs-4">
 											<!-- INTERO DES START-->
 											<div class="kf_intro_des2">
 												<div class="kf_intro_des_caption2">
 													<a href="#">
 														<span><i class="fal fa-mail-bulk"></i></span>
-														<p>ระบบสำนักงานอัตโนมัติ</p>
+														<p>ระบบสำนักงาน</p>
 													</a>
 												</div>
 											</div>
 											<!-- INTERO DES END-->
 										</div>
-										<div class="col-md-4 col-xs-6">
+										<div class="col-md-3 col-xs-6">
 											<!-- INTERO DES START-->
 											<div class="kf_intro_des2">
 												<div class="kf_intro_des_caption2">
@@ -519,7 +518,7 @@
 											</div>
 											<!-- INTERO DES END-->
 										</div>
-										<div class="col-md-4 col-xs-6">
+										<div class="col-md-2 col-xs-6">
 											<!-- INTERO DES START-->
 											<div class="kf_intro_des2">
 												<div class="kf_intro_des_caption2">
