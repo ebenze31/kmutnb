@@ -385,21 +385,160 @@
 						<div class="col-md-6">
 							<div class="widget wiget-instagram">
 								<h5>Link</h5>
-								<ul>
-									<li class="col-3"><a href="https://www.facebook.com/KMUTNBstudentaffairs"><img src="{{ asset('/kmutnb/images/link/1.jpg') }}"   height="72" alt=""/></a></li>
-									<li><a href="https://www.studentaffairs.kmutnb.ac.th/DWL-form/SAR/%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%93%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3.pdf"><img src="{{ asset('/kmutnb/images/link/2.jpg') }}"   height="72" alt=""/></a></li>
-									<li><a href="https://www.studentaffairs.kmutnb.ac.th/Counseling/index.html"><img src="{{ asset('/kmutnb/images/link/3.jpg') }}"   height="72" alt=""/></a></li>
-									<li><a href="#"><img src="{{ asset('/kmutnb/images/link/4.jpg') }}"   height="72" alt=""/></a></li>
-									<li><a href="https://www.studentaffairs.kmutnb.ac.th/14/index.html"><img src="{{ asset('/kmutnb/images/link/5.jpg') }}"   height="72" alt=""/></a></li>
-									<li><a href="https://sportreserve.kmutnb.in.th/"><img src="{{ asset('/kmutnb/images/link/6.jpg') }}"   height="72" alt=""/></a></li>
-									<li><a href="http://www.dorm.kmutnb.ac.th/"><img src="{{ asset('/kmutnb/images/link/7.jpg') }}"   height="72" alt=""/></a></li>
-									<li><a href="https://www.studentaffairs.kmutnb.ac.th/sportculture"><img src="{{ asset('/kmutnb/images/link/8.jpg') }}"   height="72" alt=""/></a></li>
-									<li><a href="https://www.studentaffairs.kmutnb.ac.th/jobfair.html"><img src="{{ asset('/kmutnb/images/link/9.jpg') }}"   height="72" alt=""/></a></li>
-									<li><a href="http://e-office.op.kmutnb.ac.th/?page=MainPage.HomePage"><img src="{{ asset('/kmutnb/images/link/10.jpg') }}"  height="72"  alt=""/></a></li>
-									<li><a href="http://www.studentaffairs.kmutnb.ac.th/Alumni2017/pages"><img src="{{ asset('/kmutnb/images/link/11.jpg') }}"  height="72"  alt=""/></a></li>
-								</ul>
+								<div class="row">
+										<div class="col-md-3 col-xs-4">
+											<!-- INTERO DES START-->
+											<div class="kf_intro_des2">
+												<div class="kf_intro_des_caption2">
+													<a href="#">
+														<span><i class="fab fa-facebook-f"></i></span>
+														<p>FACEBOOK</p>
+													</a> 
+													<!-- <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris itae erat.</p>
+													-->
+												</div>
+											</div>
+											<!-- INTERO DES END-->
+										</div>
+										<div class="col-md-3 col-xs-4">
+											<!-- INTERO DES START-->
+											<div class="kf_intro_des2">
+												<div class="kf_intro_des_caption2">
+													<a href="#">
+														<span><i class="fal fa-search-dollar"></i></span>
+														<p>Job Fiar</p>
+													</a> 
+													<!-- <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris itae erat.</p>
+													-->
+												</div>
+											</div>
+											<!-- INTERO DES END-->
+										</div>
+										
+										<div class="col-md-3 col-xs-4">
+											<!-- INTERO DES START-->
+											<div class="kf_intro_des2">
+												<div class="kf_intro_des_caption2">
+													<a href="#">
+														<span><i class="fal fa-database"></i></span>
+														<p>ฐานข้อมูล</p>
+													</a>
+												</div>
+											</div>
+											<!-- INTERO DES END-->
+										</div>
+										
+
+										<div class="col-md-3 col-xs-4">
+											<!-- INTERO DES START-->
+											<div class="kf_intro_des2">
+												<div class="kf_intro_des_caption2">
+													<a href="#">
+														<span><i class="fal fa-radio-alt"></i></span>
+														<p>ON Air</p>
+													</a>
+												</div>
+											</div>
+											<!-- INTERO DES END-->
+										</div>
+										<div class="col-md-3 col-xs-4">
+											<!-- INTERO DES START-->
+											<div class="kf_intro_des2">
+												<div class="kf_intro_des_caption2">
+													<a href="#">
+														<span><i class="fal fa-trophy-alt"></i></span>
+														<p>ผู้มีความสามารถ</p>
+													</a> 
+													<!-- <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris itae erat.</p>
+													-->
+												</div>
+											</div>
+											<!-- INTERO DES END-->
+										</div>
+
+										<div class="col-md-3 col-xs-4">
+											<!-- INTERO DES START-->
+											<div class="kf_intro_des2">
+												<div class="kf_intro_des_caption2">
+													<a href="#">
+														<span><i class="far fa-futbol"></i></span>
+														<p>จองสนามออนไลน์</p>
+													</a>
+												</div>
+											</div>
+											<!-- INTERO DES END-->
+										</div>
+
+										<div class="col-md-3 col-xs-4">
+											<!-- INTERO DES START-->
+											<div class="kf_intro_des2">
+												<div class="kf_intro_des_caption2">
+													<a href="#">
+														<span><i class="fal fa-building"></i></span>
+														<p>หอพักนักศึกษา</p>
+													</a>
+												</div>
+											</div>
+											<!-- INTERO DES END-->
+										</div>
+
+										<div class="col-md-3 col-xs-4">
+											<!-- INTERO DES START-->
+											<div class="kf_intro_des2">
+												<div class="kf_intro_des_caption2">
+													<a href="#">
+														<span><i class="fal fa-phone-alt"></i></span>
+														<p>สายด่วนสุขภาพจิต</p>
+													</a>
+												</div>
+											</div>
+											<!-- INTERO DES END-->
+										</div>
+
+										<div class="col-md-4 col-xs-4">
+											<!-- INTERO DES START-->
+											<div class="kf_intro_des2">
+												<div class="kf_intro_des_caption2">
+													<a href="#">
+														<span><i class="fal fa-mail-bulk"></i></span>
+														<p>ระบบสำนักงานอัตโนมัติ</p>
+													</a>
+												</div>
+											</div>
+											<!-- INTERO DES END-->
+										</div>
+										<div class="col-md-4 col-xs-6">
+											<!-- INTERO DES START-->
+											<div class="kf_intro_des2">
+												<div class="kf_intro_des_caption2">
+													<a href="">
+													<span><i class="fal fa-users-class"></i></span>
+													<p>จรรยาบรรณ บุคลากร</p>
+													</a>
+												</div>
+											</div>
+											<!-- INTERO DES END-->
+										</div>
+										<div class="col-md-4 col-xs-6">
+											<!-- INTERO DES START-->
+											<div class="kf_intro_des2">
+												<div class="kf_intro_des_caption2">
+													<a href="#">
+														<span><i class="fal fa-server"></i></span>
+														<p>ฐานข้อมูลศิษย์เก่าดีเด่น</p>
+													</a>
+												</div>
+											</div>
+											<!-- INTERO DES END-->
+										</div>
+									</div>
 							</div>
 						</div>
+				
+							
+									
+							
+						
 						<!--EDU2 FOOTER CONTANT DES END-->
 
 						<!--EDU2 FOOTER CONTANT DES START-->
