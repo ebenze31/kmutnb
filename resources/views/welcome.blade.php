@@ -152,8 +152,8 @@
                                             <div class="col-md-4">
                                                 <div class="edu2_cur_wrap main-shadow main-radius" style="padding: 10px;">
                                                     <figure>
-                                                        <img src="{{ asset('/kmutnb/images/content/13.jpg') }}" alt="">
-                                                        <figcaption><a href="courses-detail.html">See More</a></figcaption>
+                                                        <img src="{{ asset('/kmutnb/images/content/13.jpg') }}" alt=""  height="186">
+                                                        <figcaption><a href="{{ url('/blog') }}">See More</a></figcaption>
                                                     </figure>
                                                     <div class="edu2_cur_des">
                                                         <h5><a href="#">กองทุนกู้ยืม เพื่อการศึกษา</a></h5>
@@ -176,7 +176,7 @@
                                             <div class="col-md-4">
                                                 <div class="edu2_cur_wrap main-shadow main-radius" style="padding: 10px;">
                                                     <figure>
-                                                        <img src="{{ asset('/kmutnb/images/content/16.jpg') }}" alt="">
+                                                        <img src="{{ asset('/kmutnb/images/content/16.jpg') }}" alt="" height="186">
                                                         <figcaption><a href="courses-detail.html">See More</a></figcaption>
                                                     </figure>
                                                     <div class="edu2_cur_des">
@@ -188,7 +188,7 @@
                                             <div class="col-md-4" style="margin-top:10px;">
                                                 <div class="edu2_cur_wrap main-shadow main-radius" style="padding: 10px;">
                                                     <figure>
-                                                        <img src="{{ asset('/kmutnb/images/content/20.jpg') }}" alt="">
+                                                        <img src="{{ asset('/kmutnb/images/content/20.jpg') }}" alt="" height="186">
                                                         <figcaption><a href="courses-detail.html">See More</a></figcaption>
                                                     </figure>
                                                     <div class="edu2_cur_des">
@@ -200,7 +200,7 @@
                                             <div class="col-md-4" style="margin-top:10px;">
                                                 <div class="edu2_cur_wrap main-shadow main-radius" style="padding: 10px;">
                                                     <figure>
-                                                        <img src="{{ asset('/kmutnb/images/content/5.jpg') }}" alt="">
+                                                        <img src="{{ asset('/kmutnb/images/content/25.jpg') }}" alt="" height="186">
                                                         <figcaption><a href="courses-detail.html">See More</a></figcaption>
                                                     </figure>
                                                     <div class="edu2_cur_des">
@@ -212,7 +212,7 @@
                                             <div class="col-md-4" style="margin-top:10px;">
                                                 <div class="edu2_cur_wrap main-shadow main-radius" style="padding: 10px;">
                                                     <figure>
-                                                        <img src="{{ asset('/kmutnb/images/content/17.jpg') }}" alt="">
+                                                        <img src="{{ asset('/kmutnb/images/content/17.jpg') }}" alt="" height="186">
                                                         <figcaption><a href="courses-detail.html">See More</a></figcaption>
                                                     </figure>
                                                     <div class="edu2_cur_des">
@@ -224,7 +224,7 @@
                                             <div class="col-md-4" style="margin-top:10px;">
                                                 <div class="edu2_cur_wrap main-shadow main-radius" style="padding: 10px;">
                                                     <figure>
-                                                        <img src="{{ asset('/kmutnb/images/content/19.jpg') }}" alt="">
+                                                        <img src="{{ asset('/kmutnb/images/content/19.jpg') }}" alt="" height="186">
                                                         <figcaption><a href="courses-detail.html">See More</a></figcaption>
                                                     </figure>
                                                     <div class="edu2_cur_des">
@@ -236,7 +236,7 @@
                                             <div class="col-md-4" style="margin-top:10px;">
                                                 <div class="edu2_cur_wrap main-shadow main-radius" style="padding: 10px;">
                                                     <figure>
-                                                        <img src="{{ asset('/kmutnb/images/content/21.jpg') }}" alt="">
+                                                        <img src="{{ asset('/kmutnb/images/content/21.jpg') }}" alt="" height="186">
                                                         <figcaption><a href="courses-detail.html">See More</a></figcaption>
                                                     </figure>
                                                     <div class="edu2_cur_des">
@@ -248,7 +248,7 @@
                                             <div class="col-md-4" style="margin-top:10px;">
                                                 <div class="edu2_cur_wrap main-shadow main-radius" style="padding: 10px;">
                                                     <figure>
-                                                        <img src="{{ asset('/kmutnb/images/content/8.jpg') }}" alt="">
+                                                        <img src="{{ asset('/kmutnb/images/content/22.jpg') }}" alt="" height="186">
                                                         <figcaption><a href="courses-detail.html">See More</a></figcaption>
                                                     </figure>
                                                     <div class="edu2_cur_des">
@@ -260,7 +260,7 @@
                                             <div class="col-md-4" style="margin-top:10px;">
                                                 <div class="edu2_cur_wrap main-shadow main-radius" style="padding: 10px;">
                                                     <figure>
-                                                        <img src="{{ asset('/kmutnb/images/content/9.jpg') }}" alt="">
+                                                        <img src="{{ asset('/kmutnb/images/content/23.jpg') }}" alt="" height="186">
                                                         <figcaption><a href="courses-detail.html">See More</a></figcaption>
                                                     </figure>
                                                     <div class="edu2_cur_des">
@@ -272,7 +272,7 @@
                                             <div class="col-md-4" style="margin-top:10px;">
                                                 <div class="edu2_cur_wrap main-shadow main-radius" style="padding: 10px;">
                                                     <figure>
-                                                        <img src="{{ asset('/kmutnb/images/content/10.jpg') }}" alt="">
+                                                        <img src="{{ asset('/kmutnb/images/content/24.jpg') }}" alt="" height="186">
                                                         <figcaption><a href="courses-detail.html">See More</a></figcaption>
                                                     </figure>
                                                     <div class="edu2_cur_des">
@@ -285,7 +285,7 @@
                                             <div class="col-md-4" style="margin-top:10px;">
                                                 <div class="edu2_cur_wrap main-shadow main-radius" style="padding: 10px;">
                                                     <figure>
-                                                        <img src="{{ asset('/kmutnb/images/content/12.jpg') }}" alt="">
+                                                        <img src="{{ asset('/kmutnb/images/content/27.jpg') }}" alt="" height="186">
                                                         <figcaption><a href="courses-detail.html">See More</a></figcaption>
                                                     </figure>
                                                     <div class="edu2_cur_des">
