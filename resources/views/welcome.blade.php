@@ -75,7 +75,7 @@
 								<div class="kf_edu2_heading1">
                                     
 									<h5>About Our University</h5>
-									<h3>ยินดีต้อนรับเข้าสู่ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</h3>
+									<h3>ยินดีต้อนรับเข้าสู่ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ </h3>
 								</div>
 								<!-- HEADING 1 END-->
 
@@ -102,28 +102,28 @@
 					<div class="edu2_counter_des">
 						<span><i class="icon-group2"></i></span>
 						<h3 class="counter">28,658</h3>
-						<h5>นักศึกษา</h5>
+						<h5 style="font-size:18px;">นักศึกษา</h5>
 					</div>
 					<!--EDU2 COUNTER DES END-->
 					<!--EDU2 COUNTER DES START-->
 					<div class="edu2_counter_des">
 						<span><i class="icon-book236"></i></span>
 						<h3 class="counter">92</h3>
-						<h5>หลักสูตร</h5>
+						<h5 style="font-size:18px;">หลักสูตร</h5>
 					</div>
 					<!--EDU2 COUNTER DES END-->
 					<!--EDU2 COUNTER DES START-->
 					<div class="edu2_counter_des">
 						<span><i class="icon-win5"></i></span>
-						<h3 class="counter">282,673</h3>
-						<h5>STUDENTS ENROLLED</h5>
+						<h3 class="counter">653</h3>
+						<h5 style="font-size:18px;">รางวัล</h5>
 					</div>
 					<!--EDU2 COUNTER DES END-->
 					<!--EDU2 COUNTER DES START-->
 					<div class="edu2_counter_des">
 						<span><i class=" icon-user255"></i></span>
-						<h3 class="counter">370</h3>
-						<h5>CERTIFIED TEACHERS</h5>
+						<h3 class="counter">425</h3>
+						<h5 style="font-size:18px;">อาจารย์</h5>
 					</div>
 					<!--EDU2 COUNTER DES END-->
 				</div>

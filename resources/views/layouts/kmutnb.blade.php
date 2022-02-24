@@ -37,7 +37,7 @@
 	<!-- SIDE MENU -->
 	<link rel="stylesheet" href="{{ asset('kmutnb/css/jquery.sidr.dark.css') }}">
      <!-- icon -->
-    <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+    <link href="https://kit-pro.fontawesome.com/releases/v6.0.0/css/pro.min.css" rel="stylesheet">
 
     <style>
     	.main-shadow{
@@ -96,7 +96,7 @@
                     <!--OPTION END-->
                     <!--OPTION START-->
                     <div class="social-login">
-                        <a href="#" class="google"><i class="fa fa-google-plus"></i>Google Account</a>
+                        <a href="#" class="google"><i class="fa-brands fa-google-plus"></i>Google Account</a>
                         <a href="#" class="facebook"><i class="fa fa-facebook"></i>Facebook Account</a>
                     </div>
                     <!--OPTION END-->
@@ -150,8 +150,8 @@
                     <!--OPTION END-->
                     <!--OPTION START-->
                     <div class="social-login">
-                        <a href="#" class="google"><i class="fa fa-google-plus"></i>Google Account</a>
-                        <a href="#" class="facebook"><i class="fa fa-facebook"></i>Facebook Account</a>
+                        <a href="#" class="google"><i class="fab fa-google-plus"></i>Google Account</a>
+                        <a href="#" class="facebook"><i class="fab fa-facebook"></i>Facebook Account</a>
                     </div>
                     <!--OPTION END-->
                 
@@ -243,10 +243,10 @@
     							<li><a href="#" data-toggle="modal" data-target="#signin-box"><i class="fa fa-sign-in"></i>เข้าสู่ระบบ</a></li>
     						</ul>	    					
 	    					<ul class="top_nav">
-	    						<li><a href="blog-detail.html">เกี่ยวกับ</a></li>
-	    						<li><a href="event-detail.html">ผลงาน</a></li>
-	    						<li><a href="our-courses.html">บริการ</a></li>
-	    						<li><a href="contactus.html">ติดต่อ</a></li>
+	    						<li><a href="#">เกี่ยวกับ</a></li>
+	    						<li><a href="#">ผลงาน</a></li>
+	    						<li><a href="#">บริการ</a></li>
+	    						<li><a href="#">ติดต่อ</a></li>
 	    					</ul>
 	    				</div>
 	    			</div>
@@ -263,7 +263,8 @@
     				<div class="row">
     					<div class="col-md-2">
     						<div class="logo_wrap">
-    							<a href="#"><img src="{{ asset('/kmutnb/images/logo/logo.gif') }}" alt="" width="100%"></a>
+								<a class="d-none d-lg-block " href="{{ asset('') }}"><img src="{{ asset('/kmutnb/images/logo/logo.gif') }}" alt="" width="100%"></a>
+    							<a class="d-block d-md-none" href="{{ asset('') }}"><img src="{{ asset('/kmutnb/images/logo/logo.gif') }}" alt="" width="20%"></a>
     						</div>
     					</div>
     					<div class="col-md-10 d-flex justify-content-end">
@@ -272,10 +273,10 @@
     							<ul>
 									<li style="float: right;"><a id="simple-menu" href="#sidr"><i class="fa fa-bars"></i></a></li>
 									
-									<li style="float: right;"><a href="aboutus.html">CONTACT</a></li>
-									<li style="float: right;"><a href="aboutus.html">BLOG</a></li>
-									<li style="float: right;"><a href="aboutus.html">SERVICES</a></li>
-									<li style="float: right;"><a href="aboutus.html">STAFF</a></li>
+									<li style="float: right;"><a href="#">CONTACT</a></li>
+									<li style="float: right;"><a href="#">BLOG</a></li>
+									<li style="float: right;"><a href="#">SERVICES</a></li>
+									<li style="float: right;"><a href="#">STAFF</a></li>
     								<li style="float: right;"><a href="{{ asset('') }}">HOME</a></li>
 									
 									
@@ -569,6 +570,7 @@
 					<div class="col-md-2 " style="margin-top:10px;">
 						<div class="edu2_ft_logo_wrap">
 						<span id="sfc29fg51hqetnket4mhnq72fpfgjzmgntt"></span>
+						<script type="text/javascript" src="https://www.counters-free.net/count/acli"></script><br>
 						</div>
 					</div>
 					<div class="col-md-6">
