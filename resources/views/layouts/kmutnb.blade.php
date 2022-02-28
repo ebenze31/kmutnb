@@ -261,13 +261,13 @@
                 </div>
     			<div class="container">
     				<div class="row">
-    					<div class="col-md-2">
+    					<div class="col-md-3">
     						<div class="logo_wrap">
-								<a class="d-none d-lg-block " href="{{ asset('') }}"><img src="{{ asset('/kmutnb/images/logo/logo.gif') }}" alt="" width="100%"></a>
+								<a class="d-none d-lg-block " href="{{ asset('') }}"><img src="{{ asset('/kmutnb/images/logo/logo.gif') }}" alt="" width="70%"></a>
     							<a class="d-block d-md-none" href="{{ asset('') }}"><img src="{{ asset('/kmutnb/images/logo/logo.gif') }}" alt="" width="20%"></a>
     						</div>
     					</div>
-    					<div class="col-md-10 d-flex justify-content-end">
+    					<div class="col-md-9 d-flex justify-content-end">
     						<!--kode nav_2 start-->
     						<div class="nav_2" id="navigation">
     							<ul>
@@ -570,7 +570,9 @@
 					<div class="col-md-2 " style="margin-top:10px;">
 						<div class="edu2_ft_logo_wrap">
 						<span id="sfc29fg51hqetnket4mhnq72fpfgjzmgntt"></span>
-						<script type="text/javascript" src="https://www.counters-free.net/count/acli"></script><br>
+						<!-- <script type="text/javascript" src="https://www.counters-free.net/count/acli"></script><br> -->
+						<!-- <a href="https://www.webestools.com/global-counter-free-online-live-pages-views-visits-visitors-statistics.html"><img src="https://services.webestools.com/cpt_global/58482-19.png" alt="Free Global Counter" /></a> -->
+						<script type="text/javascript" src="https://www.usersonline.org/uo-8Z2DAwwzyaZ76d8c-7-0.js"></script><br><a href="https://www.usersonline.org/" target="_blank"></a>
 						</div>
 					</div>
 					<div class="col-md-6">
@@ -626,6 +628,9 @@
 	<script src="{{ asset('kmutnb/js/jquery.selectric.min.js') }}"></script>
 	<!--Side Menu-->
 	<script src="{{ asset('kmutnb/js/jquery.sidr.min.js') }}"></script>
+	 <!--COUNTDOWN-->
+	 <script src="{{ asset('kmutnb/js/jquery.plugin.js') }}"></script>
+    <script src="{{ asset('kmutnb/js/jquery.countdown.js') }}"></script>
 	<!--Custom JavaScript-->
 	<script src="{{ asset('kmutnb/js/custom.js') }}"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

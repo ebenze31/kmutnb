@@ -37,7 +37,7 @@
 			<div id="owl-demo-main2" class="owl-carousel owl-theme">
 				<div class="item">
 					<figure>
-                        <img  src="{{ asset('/kmutnb/images/event_new/2022.png') }}"style="height: 80vh;"  alt=""/>
+                        <img  src="{{ asset('/kmutnb/images/event_new/15.jpg') }}"style="height: 80vh;"  alt=""/>
 					</figure>
 				</div>
 				<div class="item">
@@ -52,7 +52,7 @@
 				</div>
                 <div class="item">
 					<figure>
-						<img src="{{ asset('/kmutnb/images/event_new/15.jpg') }}" style="height: 80vh;" alt=""/>
+						<img src="{{ asset('/kmutnb/images/event_new/2022.png') }}" style="height: 80vh;" alt=""/>
 					</figure>
 				</div>
 				<div class="item">
@@ -96,6 +96,133 @@
     				</div>
     			</div>
     		</section>
+            <section class="edu2_new_wrap">
+				<div class="container">
+					<!-- HEADING 2 START-->
+					<div class="col-md-12">
+						<div class="kf_edu2_heading2">
+							<h3>Upcoming Events</h3>
+						</div>
+					</div>
+					<!-- HEADING 2 END-->
+					<div class="row">
+						<!-- EDU2 NEW DES START-->
+						<div class="col-md-6">
+							<div class="edu2_new_des">
+								<div class="row">
+									<div class="col-md-6 col-sm-6">
+										<div class="edu2_event_des">
+											<h4>Dec</h4>
+											<p>Lorem Lipsum Proin Gravide Nibh Vel Velit</p>
+											<ul class="post-option">
+ 												<li>By<a href="#">Admin</a></li>
+ 												<li>03/12/2015</li>
+											</ul>
+											<a href="#" class="readmore">read more<i class="fa fa-long-arrow-right"></i></a>
+											<span>24</span>
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6 thumb">
+										<figure><img src="{{ asset('/kmutnb/extra-images/news-1.jpg') }}" alt="">
+											<figcaption><a href="blog-detail.html"><i class="fa fa-plus"></i></a></figcaption>
+										</figure>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- EDU2 NEW DES END-->
+
+						<!-- EDU2 NEW DES START-->
+						<div class="col-md-6">
+							<div class="edu2_new_des">
+								<div class="row">
+									<div class="col-md-6 col-sm-6 thumb">
+										<figure><img src="{{ asset('/kmutnb/extra-images/news-2.jpg') }}" alt="">
+											<figcaption><a href="blog-detail.html"><i class="fa fa-plus"></i></a></figcaption>
+										</figure>
+									</div>
+									<div class="col-md-6 col-sm-6">
+										<div class="edu2_event_des text-right">
+											<h4>Dec</h4>
+											<p>Lorem Lipsum Proin Gravide Nibh Vel Velit</p>
+											<ul class="post-option">
+ 												<li>By<a href="#">Admin</a></li>
+ 												<li>03/12/2015</li>
+											</ul>
+											<a href="#" class="readmore">read more<i class="fa fa-long-arrow-right"></i></a>
+											<span>03</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- EDU2 NEW DES END-->
+					</div>
+				</div>
+                <br>
+                <div class="container">
+					<!-- HEADING 2 START-->
+					<div class="col-md-12">
+						<div class="kf_edu2_heading2">
+							<h3>Ongoing events</h3>
+						</div>
+					</div>
+
+						<!-- EDU2 NEW DES START-->
+						<div class="col-md-6">
+							<div class="edu2_new_des">
+								<div class="row">
+									<div class="col-md-6 col-sm-6">
+										<div class="edu2_event_des">
+											<h4>Feb</h4>
+											<p>Lorem Lipsum Proin Gravide Nibh Vel Velit</p>
+											<ul class="post-option">
+ 												<li>By<a href="#">Admin</a></li>
+ 												<li>28/02/2022</li>
+											</ul>
+											<a href="#" class="readmore">read more<i class="fa fa-long-arrow-right"></i></a>
+											<span>31</span>
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6 thumb">
+										<figure><img src="{{ asset('/kmutnb/extra-images/news-3.jpg') }}" alt="">
+											<figcaption><a href="blog-detail.html"><i class="fa fa-plus"></i></a></figcaption>
+										</figure>
+									</div>
+								</div>
+							</div>
+						</div>
+                        
+						<!-- EDU2 NEW DES END-->
+
+						<!-- EDU2 NEW DES START-->
+						<div class="col-md-6">
+							<div class="edu2_new_des">
+								<div class="row">
+									<div class="col-md-6 col-sm-6 thumb">
+										<figure><img src="{{ asset('/kmutnb/extra-images/news-4.jpg') }}" alt="">
+											<figcaption><a href="blog-detail.html"><i class="fa fa-plus"></i></a></figcaption>
+										</figure>
+									</div>
+									<div class="col-md-6 col-sm-6">
+										<div class="edu2_event_des text-right">
+											<h4>Feb</h4>
+											<p>Lorem Lipsum Proin Gravide Nibh Vel Velit</p>
+											<ul class="post-option">
+ 												<li>By<a href="#">Admin</a></li>
+ 												<li>28/02/2022</li>
+											</ul>
+											<a href="#" class="readmore">read more<i class="fa fa-long-arrow-right"></i></a>
+											<span>11</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- EDU2 NEW DES END-->
+					</div>
+				</div>
+			</section>
 			<section class="edu2_counter_wrap">
 				<div class="container">
 					<!--EDU2 COUNTER DES START-->
